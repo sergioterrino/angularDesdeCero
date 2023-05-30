@@ -1,0 +1,63 @@
+<div id="summary">
+  <h2>¿Qué es Angular?</h2>
+  <div id="content">
+    <div id="whatIs">
+      <p>Angular es un framework de desarrollo web de código abierto creado por Google.<br><br>
+        Utiliza TypeScript y se basa en el patrón de diseño Modelo-Vista-Controlador (MVC).<br><br>
+        Permite crear aplicaciones web de una sola página (SPA) altamente interactivas y dinámicas.
+        Proporciona una estructura escalable para desarrollar componentes reutilizables y administrar
+        el estado de la aplicación. <br><br>
+        Angular también ofrece características como enrutamiento, manipulación
+        del DOM, enlace de datos bidireccional y manejo de eventos.<br><br>
+        Es una herramienta poderosa y completa para crear aplicaciones web modernas y de alto rendimiento.
+      </p>
+    </div>
+    <div id="image">
+      <img src="../../assets/logoAngular.png" alt="logo Angular">
+    </div>
+  </div>
+</div>
+
+
+<h2>Instalación</h2>
+
+<pre>
+  <b>Paso 1.</b> Instalar NodeJS en su ultima versión, para eso entraremos a su web oficial y descargaremos el instalador más actualizado <a href="https://nodejs.org/es/">https://nodejs.org/es/</a>
+
+  <b>Paso 2.</b> Actualizar NPM, el gestor de paquetes de node, para bajarnos las dependencias más actuales:
+    <div id="command">npm install -g npm@latest</div>
+  <b>Paso 3.</b> Borrar la cache de NPM:
+    <div id="command">npm cache clean --force</div>
+  <b>Paso 4.</b> Desactivar las auditorias de NPM para evitar fallos:
+    <div id="command">npm set audit false</div>
+  <b>Paso 5.</b> Desinstalar los paquetes anteriores de Angular CLI
+    <div id="command">npm uninstall -g angular-cli<br>npm uninstall -g @angular/cli</div>
+  <b>Paso 6.</b> Borrar la cache de NPM de nuevo:
+    <div id="command">npm cache clean --force</div>
+  <b>Paso 7.</b> Instalar la última versión de Angular CLI para instalar Angular11:
+    <div id="command">npm install -g @angular/cli@latest</div>
+
+Puede ser que al instalar angular cli te pregunte que si quieres que Google utilice tus datos para mejorar Angular, ahí respondemos que no con la N y continuamos.
+Ahora ya hemos instalado y actualizado Angular CLI y ya podemos generar un nuevo proyecto de Angular 11
+</pre>
+<p>Seguimos el asistente respondiendo paso a paso:</p>
+  <ol>
+    <li>Nos preguntará si queremos añadir el routing de angular, diremos que NO.</li>
+    <li>Nos preguntará si queremos usar un formato especifico para los estilos css, le daremos a enter directamente.</li>
+    <li>Esperamos a que el asistente acabe de generar nuestro proyecto de Angular 11.</li>
+  </ol>
+
+
+<p><b>Paso 8. </b>Entraremos al directorio de nuestro proyecto:</p>
+<pre>
+  <div id="command">cd NombreDelProyecto</div>
+</pre>
+<p><b>Paso 8. </b>Lanzamos el servidor local de pruebas para Angular:</p>
+<pre>
+  <div id="command">ng serve</div>
+</pre>
+<p>Opcionalmente para establecer el puerto podemos añadir:  </p>
+  <div id="command">ng serve --port 4201</div>
+
+
+

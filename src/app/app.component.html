@@ -3,6 +3,17 @@
     <h1>Aprendiendo Angular desde {{nivel}}</h1>
     <h4> {{subtitle}}</h4>
   </div>
-  <block1> </block1>
 
+  <block1> </block1>
+  <br><br>
+  <hr>
+  <br><br>
+  <block2> </block2>
+
+
+  <div id="buttons">
+    <button id="nextPage" (click)="nextPage()">Siguiente Página</button>
+  </div>
+
+  <router-outlet></router-outlet>
 </body>

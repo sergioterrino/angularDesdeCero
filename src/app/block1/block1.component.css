@@ -4,13 +4,14 @@
 
 #summary {
   display: inline; /*estas dos creo que no afectan en nada*/
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 #content {
    display: flex; /*para crear un contenedor flexible que ajuste el tamaño de sus elementos internos */
   flex-direction: row; /*para que los elementos se alineen horizontalmente */
   align-items: center;
+
 }
 
 #whatIs {
@@ -53,3 +54,5 @@ li
  {
   padding: 10px;
  }
+
+
